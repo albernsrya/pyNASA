@@ -16,7 +16,7 @@ class pyNASA:
 			pyNASA._add_resource_(**dataset)
 
 	def _add_resource_(id, name, description):
-		def rec(self, limit=50000, offset=0):
+		def rec(self, limit=5000, offset=0):
 			return self.resource(id, limit, offset)
 		
 		rec.__name__ = name
